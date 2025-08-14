@@ -1,0 +1,45 @@
+# ---- Global / IDE / OS ----
+.DS_Store
+*.log
+*.pid
+*.swp
+.vscode/
+.idea/
+
+# ---- Env files (garde un .env.example suivi) ----
+.env
+.env.*
+!*.example
+
+# ---- Frontend (React/Vite/Next) ----
+frontend/node_modules/
+frontend/.pnp/
+frontend/.pnp.js
+frontend/coverage/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+
+# ---- Backend (Python/Django) ----
+backend/.venv/
+backend/venv/
+backend/env/
+backend/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage*
+backend/db.sqlite3
+backend/*.sqlite3
+backend/media/
+backend/staticfiles/
+backend/.env
+backend/.env.*
+
+# ---- Yarn/NPM logs ----
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
